@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MonacoEditor from "@monaco-editor/react";
 import axios from 'axios'; // Import Axios
-//changes pushed from web
+//changes pushed from web1
 const GitIntegration = () => {
   const [code, setCode] = useState('// type your code here');
   const [filePath, setFilePath] = useState('index.js');
